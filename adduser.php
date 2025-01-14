@@ -1,5 +1,5 @@
 <?php
-// Clear screen function
+// Clear screen
 function clearScreen() {
     if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
         system('cls');
